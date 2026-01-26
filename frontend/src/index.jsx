@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
+import profilePhoto from './assets/profile_photo.jpg';
 // CRITICAL FIX: All icons used anywhere in this file must be imported here.
 import { 
   Github, Linkedin, Mail, Code, BarChart, Zap, Send, 
@@ -9,12 +10,12 @@ import {
 
 // --- Customizable Variables (Personal Information) ---
 const MY_NAME = "Kusuma V";
-const MY_TITLE = "Data Analyst Intern";
+const MY_TITLE = "Student";
 const MY_BIO =
-  "I am a highly motivated Data Analyst Intern with a strong foundation in Python (Pandas, NumPy) and SQL (MySQL). My passion lies in transforming raw data into actionable insights, specifically focused on fraud pattern analysis and process optimization. I thrive on challenges, having developed projects like a Transaction Fraud Analyzer and a Job Portal Resume Keyword Analyzer. I am proficient in creating dynamic visualizations using Power BI and Streamlit to communicate complex findings effectively, driving data-informed decisions.";
+  "I am a Bachelor of Computer Applications student with a solid foundation in data analytics and web development. With practical experience in Python, SQL, and data visualization, I thrive on creating innovative solutions through hands-on projects and internships. I possess a strong passion for technology and am eager to apply my skills in dynamic environments.";
 
 // **************************************************************************************************************************************************
-const PROFILE_IMAGE_URL = "https://github.com/kusuma-13/FUTURE_FS_01/blob/main/frontend/src/assets/profile_photo.jpg?raw=true"; 
+const PROFILE_IMAGE_URL = profilePhoto;
 // **************************************************************************************************************************************************
 
 const ACCENT_COLOR_CLASS = "sky"; // Change 'sky' to 'emerald', 'violet', or 'rose' to change theme
@@ -50,7 +51,7 @@ const education = [
     },
 ];
 
-// 2. INTERNSHIP EXPERIENCE - Single Internship entry
+// 2. INTERNSHIP EXPERIENCE - Multiple Internship entries
 const experience = [
   {
     title: "Data Analytics Intern",
@@ -61,6 +62,17 @@ const experience = [
       "Developed interactive dashboards using Power BI for the sales team, reducing report generation time by 2 hours daily.",
       "Wrote and optimized MySQL queries for complex data extraction, supporting a system migration project.",
       "Contributed to data quality checks using Streamlit to build a lightweight data validation application."
+    ],
+  },
+  {
+    title: "Web Full Stack Development Intern",
+    company: "Future Interns",
+    dates: "October 2025 (1 Month)",
+    description: [
+      "Developing full-stack web applications using React for frontend and Node.js for backend.",
+      "Building responsive UI components with Tailwind CSS and modern JavaScript frameworks.",
+      "Implementing RESTful APIs and database management with MySQL/MongoDB.",
+      "Collaborating with development teams to deploy applications using Git, Docker, and cloud platforms."
     ],
   },
 ];
@@ -86,6 +98,18 @@ const projects = [
     description: "A data analytics project using Python and MYSQL to detect keywords in resumes for job portals, enhancing candidate-job matching efficiency.",
     tags: ["Python", "MYSQL", "Streamlit"],
     link: "https://github.com/kusuma-13/Intermediate_Project.git",
+  },
+  {
+    title: "E-Gov API Misuse & Bot Pattern Detector",
+    description: "A security-focused project investigating misuse of E-Government APIs and designing a detection system for bot patterns to enhance security measures.",
+    tags: ["Python", "API Security", "Pattern Detection", "Security Analysis"],
+    link: "#",
+  },
+  {
+    title: "E-Commerce Storefront",
+    description: "A full-stack e-commerce application featuring a storefront interface with integrated payment systems and user authentication functionality.",
+    tags: ["React", "Node.js", "Payment Integration", "Authentication"],
+    link: "#",
   },
 ];
 
@@ -241,10 +265,7 @@ const Header = ({ name, title, imageUrl, accentColor }) => (
       <div className="mb-6">
         {/* Name and Title */}
         <h1 className="text-5xl sm:text-6xl font-extrabold text-gray-50 tracking-tight">{name}</h1>
-        <p className={`text-2xl font-medium text-${accentColor}-400 mt-2`}>{title}</p>
-      </div>
-      <div className="text-gray-300 mb-8"> 
-        <p className="text-lg italic">Data Analyst | Python | MySQL | Power BI</p>
+        <p className={`text-2xl font-medium text-${accentColor}-400 mt-2 pb-3 border-b-2 border-${accentColor}-400`}>{title}</p>
       </div>
       
       {/* Action Buttons */}
@@ -274,12 +295,12 @@ const Header = ({ name, title, imageUrl, accentColor }) => (
       <img
         // Image size is large (320x320px on desktop) and object-contain prevents cropping
         className={`w-56 h-56 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-full 
-                    object-contain 
+                    object-contain bg-white
                     border-4 border-${accentColor}-400 shadow-2xl ring-4 ring-${accentColor}-700/50`}
         src={imageUrl}
         alt={`${name}'s profile`}
         // Placeholder size 320x320
-        onError={(e) => { e.target.onerror = null; e.target.src = "https://placehold.co/320x320/1f2937/d1d5db?text=KV"; }}
+        onError={(e) => { e.target.onerror = null; e.target.src = "https://placehold.co/320x320/ffffff/ffffff?text=KV"; }}
       />
     </div>
   </header>
