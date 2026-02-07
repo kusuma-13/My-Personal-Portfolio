@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --color-primary: #0f172a; /* Dark navy */
+  --color-primary-light: #1e293b; /* Lighter navy */
+  --color-accent: #06b6d4; /* Cyan/Turquoise */
+  --color-accent-dark: #0891b2; /* Darker cyan */
+  --color-neutral: #f8fafc; /* Off-white */
+  --color-neutral-dark: #64748b; /* Gray */
+  --radius: 0.5rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +23,26 @@ html {
 }
 
 body {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: var(--color-primary);
+  color: var(--color-neutral);
+  font-family: 'Inter', sans-serif;
+}
+
+/* Semantic tokens */
+:root {
+  --bg-primary: var(--color-primary);
+  --bg-secondary: var(--color-primary-light);
+  --bg-accent: var(--color-accent);
+  --text-primary: var(--color-neutral);
+  --text-secondary: var(--color-neutral-dark);
+  --border-color: rgba(100, 116, 139, 0.2);
+}
+
+a {
+  color: var(--color-accent);
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--color-accent-dark);
 }
