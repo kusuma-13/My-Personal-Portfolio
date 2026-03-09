@@ -88,28 +88,24 @@ const certifications = [
 // 4. PROJECTS
 const projects = [
   {
-    title: "Transaction Fraud Pattern Analyzer",
-    description: "A data analytics project utilizing Python and MySQL to identify and visualize fraudulent transaction patterns within large datasets.",
-    tags: ["Python", "MySQL", "Data Analysis", "Pandas"],
-    link: "https://github.com/kusuma-13/Beginner_Project.git",
-  },
-  {
     title: "Job Portal Resume Keyword Analyzer",
     description: "A data analytics project using Python and MYSQL to detect keywords in resumes for job portals, enhancing candidate-job matching efficiency.",
     tags: ["Python", "MYSQL", "Streamlit"],
-    link: "https://github.com/kusuma-13/Intermediate_Project.git",
   },
   {
     title: "E-Gov API Misuse & Bot Pattern Detector",
     description: "A security-focused project investigating misuse of E-Government APIs and designing a detection system for bot patterns to enhance security measures.",
     tags: ["Python", "API Security", "Pattern Detection", "Security Analysis"],
-    link: "#",
   },
   {
     title: "E-Commerce Storefront",
     description: "A full-stack e-commerce application featuring a storefront interface with integrated payment systems and user authentication functionality.",
     tags: ["React", "Node.js", "Payment Integration", "Authentication"],
-    link: "#",
+  },
+  {
+    title: "Nokia Rebranded Storefront",
+    description: "A modern e-commerce platform redesigned with Nokia's brand identity, featuring a responsive interface with product catalog, cart management, and streamlined checkout experience.",
+    tags: ["React", "Node.js", "E-Commerce", "UI/UX Design"],
   },
 ];
 
