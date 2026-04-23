@@ -54,18 +54,7 @@ const education = [
 // 2. INTERNSHIP EXPERIENCE - Multiple Internship entries
 const experience = [
   {
-    title: "Data Analytics Intern",
-    company: "Rooman Technologies Pvt. Ltd.",
-    dates: "September 2025 (1 Month)",
-    description: [
-      "Assisted in cleaning and preprocessing raw datasets using Pandas and NumPy, improving data reliability by 15%.",
-      "Developed interactive dashboards using Power BI for the sales team, reducing report generation time by 2 hours daily.",
-      "Wrote and optimized MySQL queries for complex data extraction, supporting a system migration project.",
-      "Contributed to data quality checks using Streamlit to build a lightweight data validation application."
-    ],
-  },
-  {
-    title: "Web Full Stack Development Intern",
+      title: "Web Full Stack Development Intern",
     company: "Future Interns",
     dates: "October 2025 (1 Month)",
     description: [
@@ -73,6 +62,17 @@ const experience = [
       "Building responsive UI components with Tailwind CSS and modern JavaScript frameworks.",
       "Implementing RESTful APIs and database management with MySQL/MongoDB.",
       "Collaborating with development teams to deploy applications using Git, Docker, and cloud platforms."
+    ],
+},
+  {
+   title: "Data Analytics Intern",
+    company: "Rooman Technologies Pvt. Ltd.",
+    dates: "September 2025 (1 Month)",
+    description: [
+      "Assisted in cleaning and preprocessing raw datasets using Pandas and NumPy, improving data reliability by 15%.",
+      "Developed interactive dashboards using Power BI for the sales team, reducing report generation time by 2 hours daily.",
+      "Wrote and optimized MySQL queries for complex data extraction, supporting a system migration project.",
+      "Contributed to data quality checks using Streamlit to build a lightweight data validation application."
     ],
   },
 ];
@@ -101,6 +101,11 @@ const projects = [
     title: "E-Commerce Storefront",
     description: "A full-stack e-commerce application featuring a storefront interface with integrated payment systems and user authentication functionality.",
     tags: ["React", "Node.js", "Payment Integration", "Authentication"],
+  },
+  {
+    title: "AI Career Advisor Bot",
+    description: "An intelligent career guidance assistant that analyzes user skills and job preferences to recommend career paths, resume tips, and recommend professional courses resources.",
+    tags: ["AI Chatbot", "Career Guidance", "SKill Gap Analysis", "Resume Analysis"],
   },
   {
     title: "Nokia Rebranded Storefront",
