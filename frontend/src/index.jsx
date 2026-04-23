@@ -88,14 +88,14 @@ const certifications = [
 // 4. PROJECTS
 const projects = [
   {
-    title: "Job Portal Resume Keyword Analyzer",
-    description: "A data analytics project using Python and MYSQL to detect keywords in resumes for job portals, enhancing candidate-job matching efficiency.",
-    tags: ["Python", "MYSQL", "Streamlit"],
+    title: "AI Career Advisor Bot",
+    description: "An intelligent career guidance assistant that analyzes user skills and job preferences to recommend career paths, resume tips, and professional course recommendations.",
+    tags: ["AI Chatbot", "Career Guidance", "Skill Gap Analysis", "Resume Analysis"],
   },
   {
-    title: "E-Gov API Misuse & Bot Pattern Detector",
-    description: "A security-focused project investigating misuse of E-Government APIs and designing a detection system for bot patterns to enhance security measures.",
-    tags: ["Python", "API Security", "Pattern Detection", "Security Analysis"],
+    title: "Nokia Rebranded Storefront",
+    description: "A modern e-commerce platform redesigned with Nokia's brand identity, featuring a responsive interface with product catalog, cart management, and streamlined checkout experience.",
+    tags: ["React", "Node.js", "E-Commerce", "UI/UX Design"],
   },
   {
     title: "E-Commerce Storefront",
@@ -103,14 +103,14 @@ const projects = [
     tags: ["React", "Node.js", "Payment Integration", "Authentication"],
   },
   {
-    title: "AI Career Advisor Bot",
-    description: "An intelligent career guidance assistant that analyzes user skills and job preferences to recommend career paths, resume tips, and recommend professional courses resources.",
-    tags: ["AI Chatbot", "Career Guidance", "SKill Gap Analysis", "Resume Analysis"],
+    title: "E-Gov API Misuse & Bot Pattern Detector",
+    description: "A security-focused project investigating misuse of E-Government APIs and designing a detection system for bot patterns to enhance security measures.",
+    tags: ["Python", "API Security", "Pattern Detection", "Security Analysis"],
   },
   {
-    title: "Nokia Rebranded Storefront",
-    description: "A modern e-commerce platform redesigned with Nokia's brand identity, featuring a responsive interface with product catalog, cart management, and streamlined checkout experience.",
-    tags: ["React", "Node.js", "E-Commerce", "UI/UX Design"],
+    title: "Job Portal Resume Keyword Analyzer",
+    description: "A data analytics project using Python and MYSQL to detect keywords in resumes for job portals, enhancing candidate-job matching efficiency.",
+    tags: ["Python", "MYSQL", "Streamlit"],
   },
 ];
 
