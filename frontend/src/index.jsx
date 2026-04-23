@@ -12,7 +12,7 @@ import {
 const MY_NAME = "Kusuma V";
 const MY_TITLE = "Student";
 const MY_BIO =
-  "I am a Bachelor of Computer Applications student with a solid foundation in data analytics and web development. With practical experience in Python, SQL, and data visualization, I thrive on creating innovative solutions through hands-on projects and internships. I possess a strong passion for technology and am eager to apply my skills in dynamic environments.";
+  "Results-driven BCA student with internship experience in Data Analytics and Full Stack Development, proficient in Python, SQL, JavaScript, and data visualization. Skilled in data cleaning, exploratory data analysis (EDA), and building scalable, responsive web applications using HTML, CSS, and backend technologies like MongoDB and Firebase. Developed projects including resume–job description matching using keyword analysis and a feature-rich e-commerce web application. Demonstrated ability to analyze datasets, optimize performance, and deliver data-driven insights to support business decisions.";
 
 // **************************************************************************************************************************************************
 const PROFILE_IMAGE_URL = profilePhoto;
@@ -79,10 +79,30 @@ const experience = [
 
 // 3. CERTIFICATIONS
 const certifications = [
-  { name: "Power BI", issuer: "SimpliLearn", date: "August 2025" },
-  { name: "Cloud Application Development", issuer: "Skill India (PMKVY)", date: "Mar 2024" },
-  { name: "Digital Marketing Short-term Course", issuer: "Inspyr", date: "April 2024" },
-  { name: "Office Automation", issuer: "KSEAB", date: "July 2023" },
+  {
+    name: "Career Management Essentials",
+    issuer: "IBM SkillsBuild",
+    date: "2025",
+    details: "Developed skills in professional communication, resume optimization, and job search strategies.",
+  },
+  {
+    name: "Full Stack Development Master Class",
+    issuer: "Novi Tech R&D Pvt. Ltd.",
+    date: "2025",
+    details: "Gained hands-on experience in HTML, CSS, JavaScript, and full stack development concepts.",
+  },
+  {
+    name: "Cloud Application Developer",
+    issuer: "Rooman Technologies (NSDC)",
+    date: "2024",
+    details: "Learned cloud computing fundamentals, application deployment, and scalable architecture basics.",
+  },
+  {
+    name: "Digital Marketing",
+    issuer: "Inspyr",
+    date: "2024",
+    details: "Acquired knowledge in SEO, social media marketing, and digital campaign analytics.",
+  },
 ];
 
 // 4. PROJECTS
@@ -116,9 +136,44 @@ const projects = [
 
 // 5. SKILLS - Structured for display
 const skills = {
-  "Programming & Scripting": ["Python (Pandas, NumPy)", "SQL (MySQL)"],
-  "Data Visualization & BI": ["Power BI", "Streamlit", "Seaborn", "Matplotlib"],
-  "Tools & Databases": ["Git/GitHub", "Jupyter Notebooks", "MySQL"],
+  "Soft Skills": [
+    "Active listening",
+    "Empathy and emotional intelligence",
+    "Conflict resolution",
+    "Team collaboration",
+    "Adaptability",
+    "Time management",
+    "Effective communication",
+  ],
+  "Programming & Scripting": [
+    "Python",
+    "JavaScript",
+    "SQL",
+  ],
+  "Data Analytics & BI": [
+    "Data Cleaning",
+    "Data Preprocessing",
+    "Exploratory Data Analysis (EDA)",
+    "Data Visualization",
+    "Statistical Analysis",
+    "Data-Driven Insights",
+  ],
+  "Tools & Platforms": [
+    "Microsoft Excel (Pivot Tables)",
+    "AWS (Cloud Basics)",
+    "MongoDB",
+    "Firebase",
+    "Supabase",
+    "Render",
+  ],
+  "Web Technologies": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Responsive Design",
+    "REST APIs",
+    "Full Stack Development",
+  ],
 };
 
 // --- Navigation Data (Section order reflecting the professional resume layout) ---
